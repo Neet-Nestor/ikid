@@ -115,12 +115,15 @@
                         <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Knock-Knock.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="NbQ-dz-R3I">
-                                <rect key="frame" x="162.5" y="69" width="334" height="237"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Knock-Knock.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="NbQ-dz-R3I">
+                                <rect key="frame" x="83.5" y="11" width="500" height="353"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="NbQ-dz-R3I" firstAttribute="centerX" secondItem="vyN-ny-b1F" secondAttribute="centerX" id="1zI-9N-aOJ"/>
+                            <constraint firstItem="NbQ-dz-R3I" firstAttribute="centerY" secondItem="vyN-ny-b1F" secondAttribute="centerY" id="OjT-be-aEW"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="ftD-Qb-QnS"/>
                     </view>
                 </viewController>
